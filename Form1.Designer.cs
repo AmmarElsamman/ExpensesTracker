@@ -228,9 +228,9 @@
             DataTable.CellBorderStyle = TableLayoutPanelCellBorderStyle.Single;
             DataTable.ColumnCount = 5;
             DataTable.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 249F));
-            DataTable.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 263F));
-            DataTable.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 230F));
-            DataTable.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 270F));
+            DataTable.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 302F));
+            DataTable.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 225F));
+            DataTable.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 258F));
             DataTable.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 8F));
             DataTable.Controls.Add(AmountColumn, 3, 0);
             DataTable.Controls.Add(TypeColumn, 0, 0);
@@ -252,11 +252,11 @@
             AmountColumn.Dock = DockStyle.Fill;
             AmountColumn.Font = new Font("Segoe UI", 14F, FontStyle.Bold, GraphicsUnit.Point);
             AmountColumn.ForeColor = Color.FromArgb(224, 224, 224);
-            AmountColumn.Location = new Point(749, 4);
+            AmountColumn.Location = new Point(783, 4);
             AmountColumn.Multiline = true;
             AmountColumn.Name = "AmountColumn";
             AmountColumn.ReadOnly = true;
-            AmountColumn.Size = new Size(264, 44);
+            AmountColumn.Size = new Size(252, 44);
             AmountColumn.TabIndex = 5;
             AmountColumn.Text = "Amount";
             // 
@@ -282,11 +282,11 @@
             DateColumn.Dock = DockStyle.Fill;
             DateColumn.Font = new Font("Segoe UI", 14F, FontStyle.Bold, GraphicsUnit.Point);
             DateColumn.ForeColor = Color.FromArgb(224, 224, 224);
-            DateColumn.Location = new Point(518, 4);
+            DateColumn.Location = new Point(557, 4);
             DateColumn.Multiline = true;
             DateColumn.Name = "DateColumn";
             DateColumn.ReadOnly = true;
-            DateColumn.Size = new Size(224, 44);
+            DateColumn.Size = new Size(219, 44);
             DateColumn.TabIndex = 7;
             DateColumn.Text = "Date";
             // 
@@ -301,7 +301,7 @@
             NameColumn.Multiline = true;
             NameColumn.Name = "NameColumn";
             NameColumn.ReadOnly = true;
-            NameColumn.Size = new Size(257, 44);
+            NameColumn.Size = new Size(296, 44);
             NameColumn.TabIndex = 3;
             NameColumn.Text = "Name";
             // 
